@@ -249,7 +249,7 @@ const CSV = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRMXECxXOG14wBgxomb
 const MANDOS = ['MECOZZI GIAN FRANCO','GIMENEZ EDGARDO ISMAEL','YEUCHUK HORACIO GABRIEL','CORDOBA GABRIELA ALEJANDRA'];
 
 // Dotación total por sucursal (excl. licencias)
-const DOT = { DOLORES: 12, CENTRAL: 15 };
+const DOT = { DOLORES: 12, CENTRAL: 11 };
 
 function cnt(arr){ const c={}; arr.forEach(v=>{if(v&&v.trim())c[v.trim()]=(c[v.trim()]||0)+1}); return Object.entries(c).sort((a,b)=>b[1]-a[1]); }
 function barCol(i){ return i===0?'#1B3A6B':i===1?'#2A5298':i===2?'#3A6FD4':'#7B9ED4'; }
